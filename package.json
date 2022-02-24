@@ -5,6 +5,9 @@
     "prettier": "^2.5.1"
   },
   "scripts": {
-    "prepare": "husky install"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint index.js",
+    "prepare": "husky install",
+    "start": "node index.js"
   }
 }
